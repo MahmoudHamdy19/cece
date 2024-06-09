@@ -1,0 +1,52 @@
+name: cece
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  flutter_svg: ^1.1.6
+  flutter_svg_provider: ^1.0.3
+  intl: ^0.17.0
+  url_strategy: ^0.2.0
+  url_launcher: ^6.2.5
+  firebase_core: ^2.28.0
+  firebase_auth: ^4.19.0
+  cloud_firestore: ^4.16.0
+  firebase_storage: ^11.7.0
+  iconsax: ^0.0.8
+  dotted_border: ^2.1.0
+  flex_color_picker: ^3.4.1
+  flutter_form_builder: ^8.0.0
+  dartz: ^0.10.1
+  lottie: ^3.0.0
+  image_picker: ^1.0.7
+  google_fonts: ^4.0.4
+  cached_network_image: ^3.3.1
+  image_network: ^2.5.4+1
+  flutter_bloc: ^8.1.5
+  awesome_dialog: ^3.2.0
+  flutter_lazy_indexed_stack: ^0.0.6
+  readmore: ^3.0.0
+  top_snackbar_flutter: ^3.1.0
+  material_design_icons_flutter: ^7.0.7296
+  cupertino_icons: ^1.0.8
+dev_dependencies:
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/Icons/
+    - assets/jsons/
+  fonts:
+    - family: Lato
+      fonts: 
+        - asset: assets/fonts/LatoBold.ttf
+          weight: 700
